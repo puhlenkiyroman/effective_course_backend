@@ -1,10 +1,14 @@
 {
   "name": "effective_course_backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/puhlenkiyroman/effective_course_backend.git",
   "author": "<romantolstyaklitvinenko@gmail.com>",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "web-push": "^3.6.7"
